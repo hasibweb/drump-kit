@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Drump Set</title>
+</head>
+
+<body>
+    <main style="background-image: url('./img/body-bg.jpg')">
+        <div class="container">
+            <h1 class="text-center mb-5">Drump Set</h1>
+
+            <div id="front-keys">
+                <!-- Top Row -->
+                <div class="d-flex justify-content-center mb-2">
+                    <span data-key="q" class="key btn btn-outline-primary">Q <span class="d-block small text-monospace">clap
+                            <span class="d-block">analog</span></span></span>
+                    <span data-key="w" class="key btn btn-outline-primary">W <span class="d-block small text-monospace">crash
+                            <span class="d-block">acoustic</span></span></span>
+                    <span data-key="e" class="key btn btn-outline-primary">E <span class="d-block small text-monospace">hihat
+                            <span class="d-block">acoustic01</span></span></span>
+                    <span data-key="r" class="key btn btn-outline-primary">R <span class="d-block small text-monospace">hihat
+                            <span class="d-block">digital</span></span></span>
+                    <span data-key="t" class="key btn btn-outline-primary">T <span class="d-block small text-monospace">kick
+                            <span class="d-block">big</span></span></span>
+                    <span data-key="y" class="key btn btn-outline-primary">Y <span class="d-block small text-monospace">kick
+                            <span class="d-block">classic</span></span></span>
+                    <span data-key="u" class="key btn btn-outline-primary">U <span class="d-block small text-monospace">tom
+                            <span class="d-block">acoustic01</span></span></span>
+                    <span data-key="i" class="key btn btn-outline-primary">I <span class="d-block small text-monospace">tom
+                            <span class="d-block">analog</span></span></span>
+                    <span data-key="o" class="key btn btn-outline-primary">O <span class="d-block small text-monospace">openhat
+                            <span class="d-block">acoustic01</span></span></span>
+                    <span data-key="p" class="key btn btn-outline-primary">P <span class="d-block small text-monospace">openhat
+                            <span class="d-block">analog</span></span></span>
+                </div>
+                <!-- Middle Row -->
+                <div class="d-flex justify-content-center mb-2">
+                    <span data-key="a" class="key btn btn-outline-primary">A <span class="d-block small text-monospace">Clap</span></span>
+                    <span data-key="s" class="key btn btn-outline-primary">S <span class="d-block small text-monospace">cowbell</span></span>
+                    <span data-key="d" class="key btn btn-outline-primary">D <span class="d-block small text-monospace">crash</span></span>
+                    <span data-key="f" class="key btn btn-outline-primary">F <span class="d-block small text-monospace">hihat</span></span>
+                    <span data-key="g" class="key btn btn-outline-primary">G <span class="d-block small text-monospace">kick</span></span>
+                    <span data-key="h" class="key btn btn-outline-primary">H <span class="d-block small text-monospace">openhat</span></span>
+                    <span data-key="j" class="key btn btn-outline-primary">J <span class="d-block small text-monospace">perc</span></span>
+                    <span data-key="k" class="key btn btn-outline-primary">K <span class="d-block small text-monospace">tom</span></span>
+                    <span data-key="l" class="key btn btn-outline-primary">L <span class="d-block small text-monospace">Clap</span></span>
+                </div>
+                <!-- Bottom Row -->
+                <div class="d-flex justify-content-center mb-2">
+                    <span data-key="z" class="key btn btn-outline-primary">Z <span class="d-block small text-monospace">hihat
+                            <span class="d-block">electro</span></span></span>
+                    <span data-key="x" class="key btn btn-outline-primary">X <span class="d-block small text-monospace">hihat
+                            <span class="d-block">plain</span></span></span>
+                    <span data-key="c" class="key btn btn-outline-primary">C <span class="d-block small text-monospace">kick
+                            <span class="d-block">deep</span></span></span>
+                    <span data-key="v" class="key btn btn-outline-primary">V <span class="d-block small text-monospace">kick
+                            <span class="d-block">dry</span></span></span>
+                    <span data-key="b" class="key btn btn-outline-primary">B <span class="d-block small text-monospace">openhat
+                            <span class="d-block">tight</span></span></span>
+                    <span data-key="n" class="key btn btn-outline-primary">N <span class="d-block small text-monospace">shaker
+                            <span class="d-block">suckup</span></span></span>
+                    <span data-key="m" class="key btn btn-outline-primary">M <span class="d-block small text-monospace">snare
+                            <span class="d-block">big</span></span></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <span data-key="SPACE" class="key btn btn-outline-primary w-50 mx-auto">Space</span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Audios -->
+        <div id="audios">
+            <!-- Top Rows -->
+            <audio data-key="q" src="./audios/clap-analog.wav" class="audio"></audio>
+            <audio data-key="w" src="./audios/crash-acoustic.wav" class="audio"></audio>
+            <audio data-key="e" src="./audios/hihat-acoustic01.wav" class="audio"></audio>
+            <audio data-key="r" src="./audios/hihat-digital.wav" class="audio"></audio>
+            <audio data-key="t" src="./audios/kick-big.wav" class="audio"></audio>
+            <audio data-key="y" src="./audios/kick-classic.wav" class="audio"></audio>
+            <audio data-key="u" src="./audios/tom-acoustic01.wav" class="audio"></audio>
+            <audio data-key="i" src="./audios/tom-analog.wav" class="audio"></audio>
+            <audio data-key="o" src="./audios/openhat-acoustic01.wav" class="audio"></audio>
+            <audio data-key="p" src="./audios/openhat-analog.wav" class="audio"></audio>
+
+            <!-- Middle Rows -->
+            <audio data-key="a" src="./audios/clap-808.wav" class="audio"></audio>
+            <audio data-key="s" src="./audios/cowbell-808.wav" class="audio"></audio>
+            <audio data-key="d" src="./audios/crash-808.wav" class="audio"></audio>
+            <audio data-key="f" src="./audios/hihat-808.wav" class="audio"></audio>
+            <audio data-key="g" src="./audios/kick-808.wav" class="audio"></audio>
+            <audio data-key="h" src="./audios/openhat-808.wav" class="audio"></audio>
+            <audio data-key="j" src="./audios/perc-808.wav" class="audio"></audio>
+            <audio data-key="k" src="./audios/tom-808.wav" class="audio"></audio>
+            <audio data-key="l" src="./audios/openhat-slick.wav" class="audio"></audio>
+
+            <!-- Bottom Rows -->
+            <audio data-key="z" src="./audios/hihat-electro.wav" class="audio"></audio>
+            <audio data-key="x" src="./audios/hihat-plain.wav" class="audio"></audio>
+            <audio data-key="c" src="./audios/kick-deep.wav" class="audio"></audio>
+            <audio data-key="v" src="./audios/kick-dry.wav" class="audio"></audio>
+            <audio data-key="b" src="./audios/openhat-tight.wav" class="audio"></audio>
+            <audio data-key="n" src="./audios/shaker-suckup.wav" class="audio"></audio>
+            <audio data-key="m" src="./audios/snare-big.wav" class="audio"></audio>
+
+        </div>
+    </main>
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
